@@ -1,0 +1,49 @@
+*{
+    background-color: lightcoral;
+}
+.face{
+    height: 200px;
+    width: 200px;
+    border: 2px solid black;
+    background-color: burlywood;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.lefteye, .righteye{
+    height:25px;
+    width: 25px;
+    border: 2px solid black;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 20px;
+    background-color: white;
+}
+.eyes{
+    margin-top: 20px;
+    margin-left: 55px;
+    background-color: burlywood;
+}
+.smile{
+    height: 40px;
+    width: 80px;
+    margin-left: 60px;
+    margin-top: 60px;
+    background-color: cadetblue;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+}
+.smile:hover{
+    height: 150px;
+}
+.face:hover{
+    transition: 10s;
+    transform: rotate(180deg);
+    margin-left: 50%;
+    box-shadow: 10px 20px 30px rgba(15, 206, 12, 0.5);
+}
+.lefteye:hover{
+    height: 50px;
+}
+.righteye:hover{
+    height: 50px;
+}
